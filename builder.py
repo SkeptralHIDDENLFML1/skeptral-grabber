@@ -23,12 +23,6 @@ def get_config() -> dict:
         },
         {
             "type": "confirm",
-            "name": "browsers",
-            "message": "Enable browser stealing?",
-            "default": True,
-        },
-        {
-            "type": "confirm",
             "name": "discordtoken",
             "message": "Enable Discord token stealing?",
             "default": True,
